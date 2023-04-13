@@ -15,7 +15,7 @@
             <div class="title">
                 <h1>Burning Out.</h1>
                 <h2 class="pee"><small>Gabi Lecusay</small></h2>
-            </div>
+            </div><br>
             <div class="menu">
                 <a href="index.html"><button class="menubtn">home</button></a>
                 <a href="contact.html"><button class="menubtn">contact</button></a>
@@ -25,41 +25,44 @@
 
         <div class="information">
             <h1>Who... and What are we?</h1>
-            <p>"Burning Out" is a mordern, interactive sculture that utilizes 'disposable' tech in a recycling
+            <p>"Burning Out" is a mordern, recycled sculture that utilizes 'disposable' tech in a re-use
                 initiative to
-                spread more awareness of sustaining Electronic Waste. Utilizing 125 different LED sensor chips found in
+                spread more awareness of sustaining Electronic Waste. Utilizing 64 different LED sensor chips found in
                 Electronic Cigarettes, each light represents 20$ to 30$ spent just to contribute to a modern day
                 littering
                 crisis.
-                All together that is 2'500$ worth of electronics that could have been left out in parking lots, parks,
+                All together that is 2'000$ worth of electronics that could have been left out in parking lots, parks,
                 and
-                even trash bins.<br>
-                Sitting on an Arduino powered, 3D-Printed turn table, the Recycled LED cube is seperately controlled
-                with a
-                Raspberry
-                Pi. Connecting the Cube to this website we can see a listed 'Puff' Counter that tracks each and every
-                engagement with the sculpture.</p><br>
+                even trash bins. Lithium Batteries, hidden within each Vape, is incredibly prone to causing fires, toxic pollution, and exploding.<br>
+                Sitting on an Arduino powered 3D-Printed turn table, the Recycled LED cube sits and spins on top to display several various blinking patterns in the code. This website will document the many steps and initiatives taken in order to complete this project in time for the 2023 Spring Semester. I plan to continue this personal project throughout the Summer as well. </p><br>
             <h1>...Why?</h1>
             <p>The only way to put an end to
                 littering
                 as a whole is to spread awareness on how to properly dispose your electronics and why it is so important
                 to
-                do so to begin with. 125 Electronic Cigarettes is only brushing the tip of the iceberg when it comes to
+                do so to begin with. The bank of dud Electronic Cigarettes I have collected throughout the years is only brushing the tip of the iceberg when it comes to
                 just
                 how
-                many batteries, marketed as disposible products, end up clogging street drains and damaging wildlife
-                from
-                people treating these devices no different than a paper cigarette.</p><br>
-                <h1>What can You do to help?</h1>
-                <p>By being mindful of your waste and actively separating compost, trash, and recycling you're already one of many who make a huge impact on the world as we know it.</p>
-                <h1>Vape Anatomy.</h1>
+                many batteries, marketed as disposible products, end up clogging street drains and damaging wildlife. A lack of consideration for cell phones, laptops, headphones, and other tech littering the planet is a grim reminder that recycling initiatives haven't successfully impacted generations that should already have known better. </p><br>
+                <img class="VA" src="./media/lineup.jpg"><br>
+            <h1>What can You do to help?</h1>
+            <p>By being mindful of your waste and actively separating compost, trash, and recycling you're already one
+                of many who make a huge impact on the world as we know it. I believe that it can be incredibly overwhelming when approached with the issue of saving our planet; but, as I humbled, I realized that I could still do my part and benefit from a change of perspective. As an Artist, I enjoy using my entire surroundings as inspiration for my work. I hope that in this effort I can not only innovate my creativity for the good but also learn about electronics, code, and the environment in a way I had never done so before. As you explore my website, I hope to inspire you to feel the same way as well.</p><br>
+            <h1>Vape Anatomy.</h1><br><br>
+            <img class="VA" src="./media/vape_anatomy.jpg"><br><br>
+            <p>In this project I gutted over 100 HQD 1200 Puff Disposable Vapes. Because the device is composed of multiple components, I seperated each piece into four major groups: Metal, Plastic, Battery, and Chip. The Coils wrapped in Cotton were also seperated and disposed in a seperate bag. I am primarily focused on the LED Chip that serves to indicate the activation and lifespan of the battery within.</p><br>
+            <img class="chip" src="./media/chip_back.jpg">
+            <img class="chip" src="./media/chip_front.jpg"><br><br>
+            <p>This micro chip might be small but it has many capabilities! Most obviously there are three wires: Live, Ground, and a third that connects the piece down to the coil. Conducting electricity between the battery and the coil, this LED is responsible for telling its users whenever the battery is powered on and whenever there is no longer battery within the cell. The LED is mounted on a small circuit board and whenever a current is sent through it, the LED lights up to indicate as such.</p><br><br>
+            <img class="VA" src="./media/extracting.jpg">
+            <p>Once I finished safely taking apart each vape, I separated the Chips out from everything else so that I could focus on exposing the wires and testing each individually to make sure that they still function normally. Being new to electrics as a whole, learning how to solder and connect electricity was one of the more ing</p>
 
         </div>
     </div>
     <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
     <script>
-        particlesJS("particles-js", { "particles": { "number": { "value": 114, "density": { "enable": true, "value_area": 552.4033491425909 } }, "color": { "value": "#ffffff" }, "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" }, "polygon": { "nb_sides": 10 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, "opacity": { "value": 0.5, "random": false, "anim": { "enable": false, "speed": 1, "opacity_min": 0.1, "sync": false } }, "size": { "value": 0, "random": true, "anim": { "enable": true, "speed": 40, "size_min": 0.1, "sync": true } }, "line_linked": { "enable": true, "distance": 70, "color": "#000000", "opacity": 0.4, "width": 0 }, "move": { "enable": true, "speed": 6, "direction": "none", "random": false, "straight": false, "out_mode": "out", "bounce": false, "attract": { "enable": false, "rotateX": 600, "rotateY": 1200 } } }, "interactivity": { "detect_on": "canvas", "events": { "onhover": { "enable": true, "mode": "repulse" }, "onclick": { "enable": true, "mode": "push" }, "resize": true }, "modes": { "grab": { "distance": 400, "line_linked": { "opacity": 1 } }, "bubble": { "distance": 400, "size": 40, "duration": 2, "opacity": 8, "speed": 3 }, "repulse": { "distance": 200, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } }, "retina_detect": true }); var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function () { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
+        particlesJS("particles-js", { "particles": { "number": { "value": 240, "density": { "enable": true, "value_area": 1576.7399325155302 } }, "color": { "value": "#ffffff" }, "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" }, "polygon": { "nb_sides": 5 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, "opacity": { "value": 0.5, "random": false, "anim": { "enable": false, "speed": 1, "opacity_min": 0.1, "sync": false } }, "size": { "value": 0, "random": true, "anim": { "enable": false, "speed": 40, "size_min": 0.1, "sync": true } }, "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 1 }, "move": { "enable": true, "speed": 6, "direction": "top", "random": true, "straight": false, "out_mode": "out", "bounce": false, "attract": { "enable": false, "rotateX": 2400, "rotateY": 1600 } } }, "interactivity": { "detect_on": "canvas", "events": { "onhover": { "enable": true, "mode": "repulse" }, "onclick": { "enable": true, "mode": "push" }, "resize": true }, "modes": { "grab": { "distance": 400, "line_linked": { "opacity": 1 } }, "bubble": { "distance": 400, "size": 40, "duration": 2, "opacity": 8, "speed": 3 }, "repulse": { "distance": 200, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } }, "retina_detect": true }); var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function () { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
     </script>
 </body>
 

@@ -83,6 +83,26 @@ p {
     color: rgb(249, 255, 220);
 }
 
+/* donate page */
+
+#d1{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../media/discord.png');  
+}
+
+#d2{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../media/insta.png');
+}
+
+#d3{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../media/paypal.png');
+}
+
 /* About Page */
  
 .why_card{
@@ -175,6 +195,7 @@ p {
     margin: auto;
     padding: 15px;
     margin: 2%;
+    border-radius: 5px;
 }
 
 .btn:hover {

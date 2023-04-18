@@ -16,62 +16,68 @@
             <div class="title">
                 <h1>Burning Out.</h1>
                 <h2 class="pee"><small>Gabi Lecusay</small></h2>
-            </div><br>
+            </div>
 
             <div class="menu">
                 <a href="index.html"><button class="menubtn">home</button></a>
                 <a href="about.html"><button class="menubtn">about</button></a>
-                <a><button class="menubtn">donate</button></a>
-
+                <a href="donate.html"><button class="menubtn">donate</button></a>
+                <p class="pee">Inspirational Links and Resources</p>
             </div>
+           
 
             <div class="array">
 
-                <a href="https://www.ercrecycling.com"></a>
-                <div class="btn"></div></a>
-
-                <a href="https://www.bestbuy.com/site/services/recycling/pcmcat149900050025.c?id=pcmcat149900050025">
-                    <div class="btn"></div>
+                <a href="https://soptechint.com/">
+                    <div id="c1" class="btn"></div>
                 </a>
 
-                <a href="https://www.ecoatm.com/">
-                    <div class="btn"></div>
+                <a href="https://www.call2recycle.org/">
+                    <div id="c2" class="btn"></div>
+                </a>
+
+                <a href="https://ecoactions.homedepot.com/blog/projects/recycle-rechargeable-batteries-the-home-depot/">
+                    <div id="c3" class="btn"></div>
                 </a>
 
             </div>
 
             <div class="array2">
 
-                <a href="https://www.techbuyer.com/us/?_gl=1*a17ewm*_up*MQ../">
-                    <div class="btn"></div>
+                <a href="https://www.ercrecycling.com"></a>
+                <div id="c4" class="btn"></div></a>
+
+                <a href="https://www.bestbuy.com/site/services/recycling/pcmcat149900050025.c?id=pcmcat149900050025">
+                    <div id="c5" class="btn"></div>
                 </a>
 
-                <a href="https://www.call2recycle.org/">
-                    <div class="btn"></div>
-                </a>
-
-                <a href="https://ecoactions.homedepot.com/blog/projects/recycle-rechargeable-batteries-the-home-depot/">
-                    <div class="btn"></div>
+                <a href="https://www.ecoatm.com/">
+                    <div id="c6" class="btn"></div>
                 </a>
 
             </div>
 
             <div class="array3">
                 <a
-                    href="https://www.thebureauinvestigates.com/stories/2022-12-15/lithium-being-trashed-by-the-tonne-as-disposable-vapes-flood-us-market">
-                    <div class="btn"></div>
+                    href="https://www.mel-ware.com/index.html">
+                    <div id="c7" class="btn"></div>
                 </a>
-                <a href="https://www.youtube.com/@lessbutbetter9485">
-                    <div class="btn"></div>
+                <a href="https://charlyn.codes/">
+                    <div id="c8" class="btn"></div>
                 </a>
-                <div class="btn"></div>
+                <a href="https://youtu.be/hBgaqY9CG3g">
+                    <div id="c9" class="btn"></div>
+                </a>
             </div>
 
 
         </div>
     </div>
+
     <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
     <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+
     <script>
         particlesJS("particles-js", { "particles": { "number": { "value": 240, "density": { "enable": true, "value_area": 1576.7399325155302 } }, "color": { "value": "#ffffff" }, "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" }, "polygon": { "nb_sides": 5 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, "opacity": { "value": 0.5, "random": false, "anim": { "enable": false, "speed": 1, "opacity_min": 0.1, "sync": false } }, "size": { "value": 0, "random": true, "anim": { "enable": false, "speed": 40, "size_min": 0.1, "sync": true } }, "line_linked": { "enable": true, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 1 }, "move": { "enable": true, "speed": 6, "direction": "top", "random": true, "straight": false, "out_mode": "out", "bounce": false, "attract": { "enable": false, "rotateX": 2400, "rotateY": 1600 } } }, "interactivity": { "detect_on": "canvas", "events": { "onhover": { "enable": true, "mode": "repulse" }, "onclick": { "enable": true, "mode": "push" }, "resize": true }, "modes": { "grab": { "distance": 400, "line_linked": { "opacity": 1 } }, "bubble": { "distance": 400, "size": 40, "duration": 2, "opacity": 8, "speed": 3 }, "repulse": { "distance": 200, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } }, "retina_detect": true }); var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function () { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
     </script>
